@@ -1,22 +1,27 @@
 {
-  "name": "material-ui-study",
+  "name": "react-outside-handle",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html"
+    "compile": "babel src/ReactOutsideHandle.jsx --out-file build/ReactOutsideHandle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmo-fed/react-outside-handle.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0"
+  "bugs": {
+    "url": "https://github.com/vmo-fed/react-outside-handle/issues"
   },
+  "homepage": "https://github.com/vmo-fed/react-outside-handle#readme",
   "devDependencies": {
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "parcel-bundler": "^1.8.1"
+    "babel-cli": "^6.26.0"
+  },
+  "dependencies": {
+    "react": "^16.4.1"
   }
 }
