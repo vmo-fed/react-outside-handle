@@ -57,7 +57,7 @@ var ReactOutsideHandle = function (_Component) {
 
       return _react2.default.createElement(
         'div',
-        { style: { position: 'absolute' }, ref: this.myRef },
+        { style: { display: 'inline-block' }, ref: this.myRef },
         children
       );
     }
