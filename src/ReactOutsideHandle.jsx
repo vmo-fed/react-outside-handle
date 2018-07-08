@@ -1,4 +1,10 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
+const propTypes = {
+  handleClick: PropTypes.func.isRequired,
+  children: PropTypes.node.isRequired,
+};
 
 class ReactOutsideHandle extends Component {
   constructor(props) {
@@ -8,7 +14,7 @@ class ReactOutsideHandle extends Component {
 
   componentDidMount() {
     document.addEventListener('click', (e) => {
-      if (!this.myRef.current.contains(e.target)) {
+      if (this.myRef.current && !this.myRef.current.contains(e.target)) {
         this.props.handleClick();
       }
     });
@@ -21,5 +27,7 @@ class ReactOutsideHandle extends Component {
     )
   }
 }
+
+ReactOutsideHandle.propTypes = propTypes;
 
 export default ReactOutsideHandle;

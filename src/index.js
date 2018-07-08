@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import ReactOutsideHandle  from '../build/ReactOutsideHandle';
+import ReactOutsideHandle  from './ReactOutsideHandle';
 
 class HelloMessage extends React.Component {
   render() {
