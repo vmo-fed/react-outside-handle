@@ -1,7 +1,7 @@
 {
-  "vendors.js": "/static/js/vendors.47d4285b.js",
-  "react-outside-handle.js": "/static/js/react-outside-handle.48bc5966.js",
-  "runtime~app.js": "/static/js/runtime~app.c0787ddd.js",
-  "app.js": "/static/js/app.169e92a4.js",
-  "index.html": "/index.html"
+  "vendors.js": "/react-outside-handle/static/js/vendors.c7b07928.js",
+  "react-outside-handle.js": "/react-outside-handle/static/js/react-outside-handle.48bc5966.js",
+  "runtime~app.js": "/react-outside-handle/static/js/runtime~app.2081106d.js",
+  "app.js": "/react-outside-handle/static/js/app.78ad138f.js",
+  "index.html": "/react-outside-handle/index.html"
 }
