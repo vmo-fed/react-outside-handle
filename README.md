@@ -23,3 +23,5 @@ class App extends React.Component {
 ```
 
 [在线DEMO](https://codesandbox.io/s/9o0mm2476o)
+
+[在线文档](https://vmo-fed.github.io/react-outside-handle/doc/#/react-outside-handle)
