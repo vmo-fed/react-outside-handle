@@ -1,4 +1,4 @@
 export default {
-  base: '/react-outside-handle/',
+  base: '/react-outside-handle/doc/',
   hashRouter: true
 }
