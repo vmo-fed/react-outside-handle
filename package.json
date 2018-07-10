@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "babel src/ReactOutsideHandle.jsx --out-file build/ReactOutsideHandle.js",
-    "doc:dev": "docz dev",
-    "doc:build": "BABEL_ENV=development docz build"
+    "compile": "babel src/ReactOutsideHandle.jsx --out-file build/ReactOutsideHandle.js"
   },
   "repository": {
     "type": "git",
@@ -21,17 +19,6 @@
   },
   "homepage": "https://github.com/vmo-fed/react-outside-handle#readme",
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.52",
-    "babel-cli": "^6.26.0",
-    "babel-plugin-emotion": "^9.2.5"
-  },
-  "dependencies": {
-    "docz": "^0.5.5",
-    "docz-core": "^0.5.5",
-    "emotion": "^9.2.5",
-    "prop-types": "^15.6.2",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-emotion": "^9.2.5"
+    "babel-cli": "^6.26.0"
   }
 }

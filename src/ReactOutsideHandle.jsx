@@ -22,9 +22,7 @@ class ReactOutsideHandle extends Component {
 
   render() {
     const { children } = this.props;
-    return (
-      <div style={{display: 'inline-block'}} ref={this.myRef}>{children}</div>
-    )
+    return <div style={{display: 'inline-block'}} ref={this.myRef}>{children}</div>;
   }
 }
 
