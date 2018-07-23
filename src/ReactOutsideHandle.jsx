@@ -4,7 +4,12 @@ import PropTypes from 'prop-types';
 const propTypes = {
   handleClick: PropTypes.func.isRequired,
   children: PropTypes.node.isRequired,
+  style: PropTypes.shape(),
 };
+
+const defaultProps = {
+  style: null
+}
 
 class ReactOutsideHandle extends Component {
   constructor(props) {
@@ -21,11 +26,12 @@ class ReactOutsideHandle extends Component {
   }
 
   render() {
-    const { children } = this.props;
-    return <div style={{display: 'inline-block'}} ref={this.myRef}>{children}</div>;
+    const { children, style } = this.props;
+    return <div style={style} ref={this.myRef}>{children}</div>;
   }
 }
 
 ReactOutsideHandle.propTypes = propTypes;
+ReactOutsideHandle.defaultProps = defaultProps;
 
 export default ReactOutsideHandle;
